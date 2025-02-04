@@ -9,7 +9,7 @@ require_relative './tokens.rb'
 # create grammar!
 # 
 # 
-grammar = Grammar.fromTmLanguage("./original.tmLanguage.json")
+grammar = Grammar.fromTmLanguage("./main/original.tmLanguage.json")
 # grammar = Grammar.new(
 #     name: "MATLAB",
 #     scope_name: "source.m",
