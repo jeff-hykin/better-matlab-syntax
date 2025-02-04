@@ -2,7 +2,7 @@
     "name": "better-m-syntax",
     "displayName": "Better MATLAB Syntax",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "icon.png",
     "scripts": {},
     "keywords": [
@@ -24,6 +24,19 @@
         "type": "git"
     },
     "contributes": {
+        "languages": [
+			{
+				"id": "matlab",
+				"aliases": [
+					"MATLAB",
+					"matlab"
+				],
+				"extensions": [
+					".m"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
         "grammars": [
             {
 				"language": "matlab",
