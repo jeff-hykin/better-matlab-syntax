@@ -19,6 +19,10 @@
         "name": "Jeff Hykin"
     },
     "publisher": "jeff-hykin",
+    "repository": {
+        "url": "https://github.com/jeff-hykin/better-matlab-syntax",
+        "type": "git"
+    },
     "contributes": {
         "grammars": [
             {
